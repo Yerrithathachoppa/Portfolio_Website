@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags -->
+  <title>Yerrithatha Choppa | Data Specialist & Portfolio</title>
+  <meta name="description" content="Portfolio of Yerrithatha Choppa - Data Specialist, Lead Data Analyst, & AI Enthusiast with 11+ years of experience. Experience at S&P Global, S&P Capital IQ.">
+  <meta name="keywords" content="Yerrithatha Choppa, Data Specialist, Lead Data Analyst, S&P Global, S&P Capital IQ, Python, SQL, Financial Data Analysis, AI Chatbot">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph / LinkedIn Preview Meta Tags -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Yerrithatha Choppa | Data Specialist & Python Developer">
+  <meta property="og:description" content="Finance professional turned Data Specialist. Explore experience, projects, skills, and chat with my personal AI assistant.">
+  <meta property="og:image" content="/assets/og-preview.png">
+  <meta property="og:url" content="https://yerrithatha-choppa.vercel.app">
+  <link rel="canonical" href="https://yerrithatha-choppa.vercel.app">
+
+  <!-- Google Fonts: Outfit (headings) & Inter (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Pre-Paint Inline Theme Detection to Prevent Flash -->
+  <script>
+    (function() {
+      const savedTheme = localStorage.getItem('theme');
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      const theme = savedTheme || (prefersDark ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', theme);
+    })();
+  </script>
+
+  <!-- Core Foundation CSS Styles -->
+  <link rel="stylesheet" href="/css/variables.css">
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/base.css">
+  <link rel="stylesheet" href="/css/layout.css">
+  <link rel="stylesheet" href="/css/animations.css">
+
+  <!-- Section CSS Styles -->
+  <link rel="stylesheet" href="/css/hero.css">
+  <link rel="stylesheet" href="/css/about.css">
+  <link rel="stylesheet" href="/css/experience.css">
+  <link rel="stylesheet" href="/css/projects.css">
+  <link rel="stylesheet" href="/css/modal.css">
+  <link rel="stylesheet" href="/css/skills.css">
+  <link rel="stylesheet" href="/css/contact.css">
+  <link rel="stylesheet" href="/css/footer.css">
+  <link rel="stylesheet" href="/css/chatbot.css">
+</head>
+<body>
+
+  <!-- Preloader Screen -->
+  <div id="preloader">
+    <div class="preloader-spinner"></div>
+    <div style="font-family: var(--font-display); font-size: 1.5rem; font-weight: 700; color: var(--text); letter-spacing: -0.5px;">
+      Yerrithatha<span style="color: var(--accent);">.</span>
+    </div>
+  </div>
+
+  <!-- Floating Navigation Header -->
+  <header>
+    <div class="container navbar">
+      <a href="#hero" class="nav-logo">
+        Yerrithatha<span>.</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <!-- Theme Toggle Button -->
+        <button id="theme-toggle" class="theme-btn" aria-label="Toggle dark/light theme">
+          <!-- Light Mode Icon (Sun) - Show in dark theme -->
+          <svg class="sun-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m0-12.728l.707.707m12.728 12.728l.707.707M12 8a4 4 0 100 8 4 4 0 000-8z"></path>
+          </svg>
+          <!-- Dark Mode Icon (Moon) - Show in light theme -->
+          <svg class="moon-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="display: none;">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path>
+          </svg>
+        </button>
+        <!-- Contact CTA Button -->
+        <a href="#contact" class="btn btn-secondary" style="padding: 0.5rem 1.25rem; font-size: 0.875rem;">Get in Touch</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Website Content Sections -->
+  <main>
+    <!-- 1. Hero Section -->
+    <section id="hero" class="reveal"></section>
+
+    <!-- 2. About Section -->
+    <section id="about" class="reveal"></section>
+
+    <!-- 3. Experience Section -->
+    <section id="experience" class="reveal"></section>
+
+    <!-- 4. Projects Section -->
+    <section id="projects" class="reveal"></section>
+
+    <!-- 5. Skills Section -->
+    <section id="skills" class="reveal"></section>
+
+    <!-- 6. Contact Section -->
+    <section id="contact" class="reveal"></section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer id="footer"></footer>
+
+  <!-- Project Details Modal Wrapper -->
+  <div id="project-modal" class="modal" aria-hidden="true" role="dialog"></div>
+
+  <!-- Chatbot Widget Entry Point -->
+  <div id="chatbot-widget"></div>
+
+  <!-- JavaScript Modular Script Tags -->
+  <script type="module" src="/js/main.js"></script>
+</body>
+</html>

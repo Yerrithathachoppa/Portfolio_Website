@@ -1,0 +1,326 @@
+{
+  "profile": {
+    "name": "Yerrithatha Choppa Modified",
+    "title": "Data Specialist (formerly Lead Data Analyst) at S&P Global",
+    "location": "Hyderabad, Telangana, India",
+    "email": "ychoppa123@gmail.com",
+    "linkedin_url": "https://www.linkedin.com/in/yerrithatha-choppa",
+    "github_url": "https://github.com/Yerrithathachoppa",
+    "bio": "This is my modified bio.",
+    "photo_url": "/ychoppa.jpg",
+    "resume_url": "/YCHOPPA_newV2.pdf"
+  },
+  "experience": [
+    {
+      "company": "S&P Global",
+      "role": "Data Specialist",
+      "start_date": "July 2026",
+      "end_date": "Present",
+      "bullets": [
+        "Developed Python-based financial data validation and reporting solutions.",
+        "Served as the technical POC, reviewing implementation logic and resolving technical blockers.",
+        "Automated financial data quality checks using Python, Pandas, JSON, and error handling."
+      ],
+      "sort_order": 1
+    },
+    {
+      "company": "S&P Global",
+      "role": "Lead Data Analyst",
+      "start_date": "Jan 2023",
+      "end_date": "Jul 2026",
+      "bullets": [
+        "Built financial data validation scripts ensuring reporting accuracy.",
+        "Designed comparison logic for historical financial data and discrepancy detection.",
+        "Collaborated with analysts and developers to translate business requirements into technical solutions."
+      ],
+      "sort_order": 2
+    },
+    {
+      "company": "S&P Capital IQ (India) Private Limited",
+      "role": "Data Analyst",
+      "start_date": "Feb 2015",
+      "end_date": "Dec 2022",
+      "bullets": [
+        "Collected, standardized, and validated financial statements of publicly traded companies.",
+        "Analyzed SEC filings (10-K, 10-Q, 20-F, 40-F, 8-K) and financial reports.",
+        "Performed fundamental analysis, balance sheet, income statement, EPS, and cash flow analysis."
+      ],
+      "sort_order": 3
+    }
+  ],
+  "projects": [
+    {
+      "title": "Email AI-Agent",
+      "description": "Intelligent AI Agent designed to draft, classify, and automate email responses using Large Language Models.",
+      "tech": [
+        "Python",
+        "Groq",
+        "LangChain",
+        "LLMs"
+      ],
+      "thumbnail_url": null,
+      "video_url": null,
+      "project_url": "https://github.com/Yerrithathachoppa/Email_AI-Agent",
+      "sort_order": 1
+    },
+    {
+      "title": "ML-project-Credit-Risk-model",
+      "description": "Machine Learning classification model to assess borrower credit risk and default probabilities.",
+      "tech": [
+        "Python",
+        "Pandas",
+        "Scikit-Learn",
+        "Streamlit"
+      ],
+      "thumbnail_url": null,
+      "video_url": "https://github.com/Yerrithathachoppa/ML-project-Credit-Risk-model",
+      "project_url": "https://ychoppa-ml-project-credit-risk-model.streamlit.app/",
+      "sort_order": 2
+    },
+    {
+      "title": "ML-project-Health-insurance-premium-prediction",
+      "description": "Predictive model designed to forecast health insurance premium charges using regression algorithms.",
+      "tech": [
+        "Python",
+        "Pandas",
+        "Scikit-Learn",
+        "Streamlit"
+      ],
+      "thumbnail_url": null,
+      "video_url": "https://github.com/Yerrithathachoppa/ML-project-Health-insurance-premium-prediction",
+      "project_url": "https://ml-project-health-insurance-premium-prediction-ychoppa.streamlit.app/",
+      "sort_order": 3
+    },
+    {
+      "title": "Expenses-Tracking-System",
+      "description": "Desktop/Web system to track monthly household expenses, manage budgets, and generate visual expense reports.",
+      "tech": [
+        "Python",
+        "SQLite",
+        "Pandas",
+        "Streamlit"
+      ],
+      "thumbnail_url": null,
+      "video_url": null,
+      "project_url": "https://github.com/Yerrithathachoppa/Expenses-Tracking-System",
+      "sort_order": 4
+    },
+    {
+      "title": "AtliQ-Hospitality-Analysis",
+      "description": "Business intelligence hospitality analysis dashboard delivering data insights on hotel revenue, booking rates, and occupancy.",
+      "tech": [
+        "Power BI",
+        "SQL",
+        "Excel",
+        "Data Analysis"
+      ],
+      "thumbnail_url": null,
+      "video_url": null,
+      "project_url": "https://github.com/Yerrithathachoppa/AtliQ-Hospitality-Analysis",
+      "sort_order": 5
+    },
+    {
+      "title": "Atliqo-Bank-Credit-Card-Launch",
+      "description": "Business data analytics model providing customer segmentation and strategic insights for banking credit card launches.",
+      "tech": [
+        "SQL",
+        "Power BI",
+        "Python",
+        "Data Analytics"
+      ],
+      "thumbnail_url": null,
+      "video_url": null,
+      "project_url": "https://github.com/Yerrithathachoppa/Atliqo-Bank-Credit-Card-Launch",
+      "sort_order": 6
+    }
+  ],
+  "skills": [
+    {
+      "category": "technical",
+      "name": "Python",
+      "sort_order": 1
+    },
+    {
+      "category": "technical",
+      "name": "SQL",
+      "sort_order": 2
+    },
+    {
+      "category": "technical",
+      "name": "PostgreSQL",
+      "sort_order": 3
+    },
+    {
+      "category": "technical",
+      "name": "Pandas",
+      "sort_order": 4
+    },
+    {
+      "category": "technical",
+      "name": "NumPy",
+      "sort_order": 5
+    },
+    {
+      "category": "technical",
+      "name": "Statistics",
+      "sort_order": 6
+    },
+    {
+      "category": "technical",
+      "name": "Machine Learning Fundamentals",
+      "sort_order": 7
+    },
+    {
+      "category": "technical",
+      "name": "Financial Data Analysis",
+      "sort_order": 8
+    },
+    {
+      "category": "technical",
+      "name": "Data Validation",
+      "sort_order": 9
+    },
+    {
+      "category": "technical",
+      "name": "Fundamental Analysis",
+      "sort_order": 10
+    },
+    {
+      "category": "tools",
+      "name": "Git",
+      "sort_order": 11
+    },
+    {
+      "category": "tools",
+      "name": "GitHub",
+      "sort_order": 12
+    },
+    {
+      "category": "tools",
+      "name": "FastAPI",
+      "sort_order": 13
+    },
+    {
+      "category": "tools",
+      "name": "Postman",
+      "sort_order": 14
+    },
+    {
+      "category": "tools",
+      "name": "Power BI",
+      "sort_order": 15
+    },
+    {
+      "category": "tools",
+      "name": "Azure Cloud",
+      "sort_order": 16
+    },
+    {
+      "category": "tools",
+      "name": "Jupyter Notebook",
+      "sort_order": 17
+    },
+    {
+      "category": "tools",
+      "name": "PyCharm",
+      "sort_order": 18
+    },
+    {
+      "category": "tools",
+      "name": "VS Code",
+      "sort_order": 19
+    },
+    {
+      "category": "tools",
+      "name": "Advanced Excel",
+      "sort_order": 20
+    },
+    {
+      "category": "tools",
+      "name": "GitHub Copilot",
+      "sort_order": 21
+    },
+    {
+      "category": "tools",
+      "name": "Cursor",
+      "sort_order": 22
+    },
+    {
+      "category": "tools",
+      "name": "Windsurf",
+      "sort_order": 23
+    },
+    {
+      "category": "tools",
+      "name": "Claude",
+      "sort_order": 24
+    },
+    {
+      "category": "soft",
+      "name": "Analytical Thinking",
+      "sort_order": 25
+    },
+    {
+      "category": "soft",
+      "name": "Communication",
+      "sort_order": 26
+    },
+    {
+      "category": "soft",
+      "name": "Problem Solving",
+      "sort_order": 27
+    },
+    {
+      "category": "soft",
+      "name": "Root Cause Analysis",
+      "sort_order": 28
+    },
+    {
+      "category": "soft",
+      "name": "Cross-functional Collaboration",
+      "sort_order": 29
+    },
+    {
+      "category": "soft",
+      "name": "Technical Leadership",
+      "sort_order": 30
+    },
+    {
+      "category": "soft",
+      "name": "Continuous Learning",
+      "sort_order": 31
+    }
+  ],
+  "faq": [
+    {
+      "question": "What are your strongest skills?",
+      "answer": "Python, SQL, financial data analysis, data validation, automation, root cause analysis, and translating finance business requirements into technical solutions.",
+      "sort_order": 1
+    },
+    {
+      "question": "Are you open to relocation?",
+      "answer": "This information is not specified in the provided documents.",
+      "sort_order": 2
+    },
+    {
+      "question": "What is your notice period / availability?",
+      "answer": "This information is not specified in the provided documents.",
+      "sort_order": 3
+    },
+    {
+      "question": "What kind of roles are you looking for?",
+      "answer": "Data Analyst, Data Specialist, Data Scientist (Entry/Mid-level), AI/ML Engineer (Junior), and Python Developer roles focused on data and automation.",
+      "sort_order": 4
+    },
+    {
+      "question": "Tell me about a challenging project you worked on.",
+      "answer": "I developed Python-based financial data validation frameworks that automated validation, historical comparison, discrepancy reporting, and quality checks for financial reporting, significantly improving data accuracy and efficiency.",
+      "sort_order": 5
+    },
+    {
+      "question": "What makes you different from other candidates?",
+      "answer": "I combine over a decade of financial domain expertise with strong Python automation skills, enabling me to understand both the business context and the technical implementation. This finance-plus-programming background helps me deliver reliable, scalable data solutions.",
+      "sort_order": 6
+    }
+  ]
+}

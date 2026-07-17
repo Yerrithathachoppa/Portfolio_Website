@@ -1,0 +1,52 @@
+/* About Section Styles */
+#about {
+  background-color: var(--surface);
+}
+
+.about-grid {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-card {
+  background-color: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .about-card {
+    flex-direction: row;
+    text-align: left;
+    gap: 2rem;
+  }
+}
+
+.about-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 16px;
+  background-color: rgba(var(--accent-rgb), 0.1);
+  color: var(--accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.about-icon svg {
+  width: 2rem;
+  height: 2rem;
+}
+
+.about-bio {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  color: var(--text-muted);
+}

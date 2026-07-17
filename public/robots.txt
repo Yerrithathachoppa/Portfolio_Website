@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /api/
+Allow: /
+
+Sitemap: https://yerrithatha-choppa.vercel.app/sitemap.xml

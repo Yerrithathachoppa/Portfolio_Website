@@ -1,0 +1,20 @@
+{
+  "name": "yerrithatha-choppa-portfolio",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Portfolio website for Yerrithatha Choppa with AI chatbot",
+  "main": "api/content.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "local": "node --env-file=.env.local scratch/dev-server.js",
+    "test:parser": "node scratch/test-parser.js"
+  },
+  "dependencies": {
+    "groq-sdk": "^0.9.0",
+    "pg": "^8.11.3"
+  },
+  "devDependencies": {
+    "express": "^5.2.1",
+    "vercel": "^55.0.0"
+  }
+}

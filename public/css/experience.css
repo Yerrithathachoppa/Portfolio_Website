@@ -1,0 +1,137 @@
+/* Experience Section Styles */
+#experience {
+  background-color: var(--bg);
+  position: relative;
+}
+
+.timeline-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.timeline-line {
+  position: absolute;
+  left: 20px;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background-color: var(--border);
+  border-radius: 9999px;
+}
+
+@media (min-width: 768px) {
+  .timeline-line {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 3.5rem;
+  width: 100%;
+  padding-left: 50px;
+}
+
+.timeline-item:last-child {
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .timeline-item {
+    width: 50%;
+    padding-left: 0;
+  }
+  
+  .timeline-item.left {
+    left: 0;
+    padding-right: 50px;
+    text-align: right;
+  }
+
+  .timeline-item.right {
+    left: 50%;
+    padding-left: 50px;
+  }
+}
+
+/* Dots along the timeline line */
+.timeline-dot {
+  position: absolute;
+  left: 12px;
+  top: 24px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: var(--surface);
+  border: 4px solid var(--accent);
+  z-index: 5;
+}
+
+@media (min-width: 768px) {
+  .timeline-dot {
+    left: auto;
+  }
+
+  .left .timeline-dot {
+    right: -10px;
+  }
+
+  .right .timeline-dot {
+    left: -10px;
+  }
+}
+
+/* Cards containing job details */
+.timeline-card {
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  padding: var(--card-padding);
+  border-radius: 16px;
+  position: relative;
+}
+
+.timeline-date {
+  display: inline-block;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--accent);
+  margin-bottom: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.timeline-role {
+  font-size: 1.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.timeline-company {
+  font-size: 1rem;
+  color: var(--text-muted);
+  font-weight: 500;
+  margin-bottom: 1.25rem;
+}
+
+.timeline-bullets {
+  list-style: none;
+  padding-left: 0;
+  text-align: left;
+}
+
+.timeline-bullets li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+.timeline-bullets li::before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-weight: bold;
+}

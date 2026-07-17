@@ -1,0 +1,44 @@
+/* Footer Styles */
+#footer {
+  background-color: var(--bg);
+  border-top: 1px solid var(--border);
+  padding: 3rem 1.5rem;
+  color: var(--text-muted);
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .footer-container {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+}
+
+.footer-logo {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: var(--text);
+  margin-bottom: 0.25rem;
+  display: inline-block;
+}
+
+.footer-logo span {
+  color: var(--accent);
+}
+
+.footer-tagline {
+  font-size: 0.9rem;
+}
+
+.copyright {
+  font-size: 0.875rem;
+}
