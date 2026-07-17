@@ -53,3 +53,10 @@ CREATE TABLE IF NOT EXISTS admin_meta (
   key TEXT PRIMARY KEY,
   value TEXT NOT NULL
 );
+
+CREATE TABLE IF NOT EXISTS certifications (
+  id SERIAL PRIMARY KEY,
+  name TEXT NOT NULL,
+  url TEXT,
+  sort_order INTEGER NOT NULL
+);

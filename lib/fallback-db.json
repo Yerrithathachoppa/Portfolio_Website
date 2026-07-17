@@ -291,6 +291,33 @@
       "sort_order": 31
     }
   ],
+  "certifications": [
+    {
+      "name": "PCEP™ – Certified Entry-Level Python Programmer",
+      "url": "https://verify.openedg.org/?id=XxAz.FsXc.L0Xp",
+      "sort_order": 1
+    },
+    {
+      "name": "[PCAP-31-03] PCAP – Certified Associate in Python Programming",
+      "url": "https://verify.openedg.org/?id=RsxH.uT9n.2tWu",
+      "sort_order": 2
+    },
+    {
+      "name": "Math and Statistics For AI, Data Science",
+      "url": "https://codebasics.io/certificate/CB-63-570553",
+      "sort_order": 3
+    },
+    {
+      "name": "SQL for Data Science",
+      "url": "https://codebasics.io/certificate/CB-82-570553",
+      "sort_order": 4
+    },
+    {
+      "name": "Python: Beginner to Advanced For Data Science",
+      "url": "https://codebasics.io/certificate/CB-48-570553",
+      "sort_order": 5
+    }
+  ],
   "faq": [
     {
       "question": "What are your strongest skills?",

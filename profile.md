@@ -104,6 +104,14 @@
 - Technical Leadership
 - Continuous Learning
 
+## Certifications
+
+- **PCEP™ – Certified Entry-Level Python Programmer:** https://verify.openedg.org/?id=XxAz.FsXc.L0Xp
+- **[PCAP-31-03] PCAP – Certified Associate in Python Programming:** https://verify.openedg.org/?id=RsxH.uT9n.2tWu
+- **Math and Statistics For AI, Data Science:** https://codebasics.io/certificate/CB-63-570553
+- **SQL for Data Science:** https://codebasics.io/certificate/CB-82-570553
+- **Python: Beginner to Advanced For Data Science:** https://codebasics.io/certificate/CB-48-570553
+
 ## FAQ
 
 **Q: What are your strongest skills?**  

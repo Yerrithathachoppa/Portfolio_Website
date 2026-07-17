@@ -43,12 +43,14 @@ export default async function handler(req, res) {
       experienceResult,
       projectsResult,
       skillsResult,
+      certificationsResult,
       faqResult
     ] = await Promise.all([
       pool.query('SELECT * FROM profile LIMIT 1'),
       pool.query('SELECT * FROM experience ORDER BY sort_order ASC'),
       pool.query('SELECT * FROM projects ORDER BY sort_order ASC'),
       pool.query('SELECT * FROM skills ORDER BY sort_order ASC'),
+      pool.query('SELECT * FROM certifications ORDER BY sort_order ASC'),
       pool.query('SELECT * FROM faq ORDER BY sort_order ASC')
     ]);
 
@@ -61,6 +63,7 @@ export default async function handler(req, res) {
       experience: experienceResult.rows,
       projects: projectsResult.rows,
       skills: skillsResult.rows,
+      certifications: certificationsResult.rows,
       faq: faqResult.rows
     });
 
@@ -81,6 +84,7 @@ export default async function handler(req, res) {
         experience: fallbackData.experience,
         projects: fallbackData.projects,
         skills: fallbackData.skills,
+        certifications: fallbackData.certifications,
         faq: fallbackData.faq,
         is_fallback: true
       });

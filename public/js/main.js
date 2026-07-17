@@ -5,6 +5,7 @@ import { renderAbout } from './about.js';
 import { renderExperience } from './experience.js';
 import { renderProjects } from './projects.js';
 import { renderSkills } from './skills.js';
+import { renderCertifications } from './certifications.js';
 import { renderContact } from './contact.js';
 import { renderFooter } from './footer.js';
 import { initScrollAnimations } from './scroll-animations.js';
@@ -27,6 +28,7 @@ async function init() {
       renderExperience(data.experience);
       renderProjects(data.projects);
       renderSkills(data.skills);
+      renderCertifications(data.certifications);
       renderContact(data.profile);
       renderFooter(data.profile);
       
