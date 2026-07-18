@@ -58,7 +58,7 @@
         "LangChain",
         "LLMs"
       ],
-      "thumbnail_url": null,
+      "thumbnail_url": "/images/email_ai_agent.png",
       "video_url": null,
       "project_url": "https://github.com/Yerrithathachoppa/Email_AI-Agent",
       "sort_order": 1
@@ -72,7 +72,7 @@
         "Scikit-Learn",
         "Streamlit"
       ],
-      "thumbnail_url": null,
+      "thumbnail_url": "/images/credit_risk_model.png",
       "video_url": "https://github.com/Yerrithathachoppa/ML-project-Credit-Risk-model",
       "project_url": "https://ychoppa-ml-project-credit-risk-model.streamlit.app/",
       "sort_order": 2
@@ -86,7 +86,7 @@
         "Scikit-Learn",
         "Streamlit"
       ],
-      "thumbnail_url": null,
+      "thumbnail_url": "/images/health_insurance_prediction.png",
       "video_url": "https://github.com/Yerrithathachoppa/ML-project-Health-insurance-premium-prediction",
       "project_url": "https://ml-project-health-insurance-premium-prediction-ychoppa.streamlit.app/",
       "sort_order": 3
@@ -100,7 +100,7 @@
         "Pandas",
         "Streamlit"
       ],
-      "thumbnail_url": null,
+      "thumbnail_url": "/images/expenses_tracking.png",
       "video_url": null,
       "project_url": "https://github.com/Yerrithathachoppa/Expenses-Tracking-System",
       "sort_order": 4
@@ -114,7 +114,7 @@
         "Excel",
         "Data Analysis"
       ],
-      "thumbnail_url": null,
+      "thumbnail_url": "/images/hospitality_analysis.png",
       "video_url": null,
       "project_url": "https://github.com/Yerrithathachoppa/AtliQ-Hospitality-Analysis",
       "sort_order": 5
@@ -128,7 +128,7 @@
         "Python",
         "Data Analytics"
       ],
-      "thumbnail_url": null,
+      "thumbnail_url": "/images/credit_card_launch.png",
       "video_url": null,
       "project_url": "https://github.com/Yerrithathachoppa/Atliqo-Bank-Credit-Card-Launch",
       "sort_order": 6

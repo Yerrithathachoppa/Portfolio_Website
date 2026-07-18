@@ -37,33 +37,39 @@
 - **Description:** Intelligent AI Agent designed to draft, classify, and automate email responses using Large Language Models.
 - **Tech:** Python, Groq, LangChain, LLMs
 - **Link:** https://github.com/Yerrithathachoppa/Email_AI-Agent
+- **Thumbnail:** /images/email_ai_agent.png
 
 ### ML-project-Credit-Risk-model
 - **Description:** Machine Learning classification model to assess borrower credit risk and default probabilities.
 - **Tech:** Python, Pandas, Scikit-Learn, Streamlit
 - **Link:** https://ychoppa-ml-project-credit-risk-model.streamlit.app/
 - **Github:** https://github.com/Yerrithathachoppa/ML-project-Credit-Risk-model
+- **Thumbnail:** /images/credit_risk_model.png
 
 ### ML-project-Health-insurance-premium-prediction
 - **Description:** Predictive model designed to forecast health insurance premium charges using regression algorithms.
 - **Tech:** Python, Pandas, Scikit-Learn, Streamlit
 - **Link:** https://ml-project-health-insurance-premium-prediction-ychoppa.streamlit.app/
 - **Github:** https://github.com/Yerrithathachoppa/ML-project-Health-insurance-premium-prediction
+- **Thumbnail:** /images/health_insurance_prediction.png
 
 ### Expenses-Tracking-System
 - **Description:** Desktop/Web system to track monthly household expenses, manage budgets, and generate visual expense reports.
 - **Tech:** Python, SQLite, Pandas, Streamlit
 - **Link:** https://github.com/Yerrithathachoppa/Expenses-Tracking-System
+- **Thumbnail:** /images/expenses_tracking.png
 
 ### AtliQ-Hospitality-Analysis
 - **Description:** Business intelligence hospitality analysis dashboard delivering data insights on hotel revenue, booking rates, and occupancy.
 - **Tech:** Power BI, SQL, Excel, Data Analysis
 - **Link:** https://github.com/Yerrithathachoppa/AtliQ-Hospitality-Analysis
+- **Thumbnail:** /images/hospitality_analysis.png
 
 ### Atliqo-Bank-Credit-Card-Launch
 - **Description:** Business data analytics model providing customer segmentation and strategic insights for banking credit card launches.
 - **Tech:** SQL, Power BI, Python, Data Analytics
 - **Link:** https://github.com/Yerrithathachoppa/Atliqo-Bank-Credit-Card-Launch
+- **Thumbnail:** /images/credit_card_launch.png
 
 ## Skills
 
