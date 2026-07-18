@@ -2,7 +2,7 @@
 
 ## Personal Info
 - **Name:** Yerrithatha Choppa
-- **Current Title:** Data Specialist (formerly Lead Data Analyst) at S&P Global
+- **Current Title:** Data Specialist at S&P Global
 - **Location:** Hyderabad, Telangana, India
 - **Email:** ychoppa123@gmail.com
 - **LinkedIn:** https://www.linkedin.com/in/yerrithatha-choppa
