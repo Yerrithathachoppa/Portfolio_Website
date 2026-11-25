@@ -57,12 +57,16 @@ export default async function handler(req, res) {
     // Format the profile row
     const profile = profileResult.rows[0] || null;
 
+    // Services are not stored in the database; read them from profile.md
+    const services = await loadServicesFromProfile();
+
     // Return combined payload
     return res.status(200).json({
       profile,
       experience: experienceResult.rows,
       projects: projectsResult.rows,
       skills: skillsResult.rows,
+      services,
       certifications: certificationsResult.rows,
       faq: faqResult.rows
     });
@@ -84,6 +88,7 @@ export default async function handler(req, res) {
         experience: fallbackData.experience,
         projects: fallbackData.projects,
         skills: fallbackData.skills,
+        services: fallbackData.services,
         certifications: fallbackData.certifications,
         faq: fallbackData.faq,
         is_fallback: true
@@ -95,5 +100,21 @@ export default async function handler(req, res) {
         message: 'Failed to retrieve website content.'
       });
     }
+  }
+}
+
+/**
+ * Reads the Services list from profile.md (services are not stored in the database).
+ */
+async function loadServicesFromProfile() {
+  try {
+    const path = await import('path');
+    const { fileURLToPath } = await import('url');
+    const __dirname = path.dirname(fileURLToPath(import.meta.url));
+    const { parseProfileMarkdown } = await import('../lib/parse-profile.js');
+    return parseProfileMarkdown(path.resolve(__dirname, '../profile.md')).services || [];
+  } catch (err) {
+    console.warn('Could not load services from profile.md:', err.message);
+    return [];
   }
 }

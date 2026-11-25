@@ -1,0 +1,68 @@
+/* Services Section Styles */
+#services {
+  background-color: var(--surface);
+}
+
+.services-subtitle {
+  color: var(--text-muted);
+  max-width: 640px;
+  margin: -1rem auto 2.5rem;
+  text-align: center;
+  font-size: 1.05rem;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 992px) {
+  .services-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.service-card {
+  background-color: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 2rem;
+  transition: border-color var(--transition-fast);
+}
+
+.service-card:hover {
+  border-color: var(--accent);
+}
+
+.service-number {
+  display: inline-block;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--accent);
+  margin-bottom: 0.75rem;
+}
+
+.service-title {
+  font-size: 1.2rem;
+  margin-bottom: 0.75rem;
+  color: var(--text);
+}
+
+.service-desc {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.services-cta {
+  margin-top: 2.5rem;
+  text-align: center;
+}

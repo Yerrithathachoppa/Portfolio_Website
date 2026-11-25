@@ -18,12 +18,13 @@ export function renderHero(profileData) {
   heroSection.innerHTML = `
     <div class="container hero-container">
       <div class="hero-content">
-        <span class="hero-greeting">Hi there, I am</span>
+        <span class="hero-greeting">Freelance · Available for projects</span>
         <h1 class="hero-name">${name || 'Yerrithatha Choppa'}</h1>
         <h2 class="hero-title">${title || 'Data Specialist'}</h2>
         <p class="hero-desc">${shortBio}</p>
         <div class="hero-actions">
-          <a href="#contact" class="btn btn-primary hero-cta">Let's Connect</a>
+          <a href="#contact" class="btn btn-primary hero-cta">Work With Me</a>
+          <a href="#services" class="btn btn-secondary">View Services</a>
           <a href="${resume_url || '#'}" id="resume-btn" class="btn btn-secondary ${!resume_url ? 'tooltip' : ''}" target="${resume_url ? '_blank' : '_self'}">
             View Resume
             ${!resume_url ? '<span class="tooltiptext">Resume coming soon!</span>' : ''}

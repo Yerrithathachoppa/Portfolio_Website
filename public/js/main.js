@@ -5,6 +5,7 @@ import { renderAbout } from './about.js';
 import { renderExperience } from './experience.js';
 import { renderProjects } from './projects.js';
 import { renderSkills } from './skills.js';
+import { renderServices } from './services.js';
 import { renderCertifications } from './certifications.js';
 import { renderContact } from './contact.js';
 import { renderFooter } from './footer.js';
@@ -25,6 +26,7 @@ async function init() {
     if (data) {
       renderHero(data.profile);
       renderAbout(data.profile);
+      renderServices(data.services);
       renderExperience(data.experience);
       renderProjects(data.projects);
       renderSkills(data.skills);

@@ -2,14 +2,14 @@
 
 ## Personal Info
 - **Name:** Yerrithatha Choppa
-- **Current Title:** Data Specialist at S&P Global
+- **Current Title:** Financial Data & Automation Specialist
 - **Location:** Hyderabad, Telangana, India
 - **Email:** ychoppa123@gmail.com
 - **LinkedIn:** https://www.linkedin.com/in/yerrithatha-choppa
 - **GitHub:** https://github.com/Yerrithathachoppa
 - **Resume:** /YCHOPPA_newV2.pdf
 - **Photo:** /ychoppa.jpg
-- **Bio:** Finance professional turned Data Specialist with 11+ years of experience in financial data analysis and validation. I combine an MBA in Finance with Python, SQL, and data engineering skills to build reliable data solutions and automate complex financial workflows. Currently expanding my expertise in Machine Learning, Generative AI, and Data Science while seeking opportunities in Data Analytics, Data Science, and AI.
+- **Bio:** I turn messy financial data into clean, validated, automated reports and pipelines. With 11+ years of hands-on work on financial statements and SEC filings, I combine an MBA in Finance with Python, SQL, and Excel automation to build reliable data extraction, validation, and reporting solutions. I help investment firms, lenders, fintechs, and finance teams save hours of manual work and trust their numbers. Available for freelance projects and contract work.
 
 ## Experience
 
@@ -73,42 +73,64 @@
 
 ## Skills
 
-### Technical
+### Financial Data & Domain
+- Financial Statement Analysis
+- SEC Filings (10-K, 10-Q, 20-F, 8-K)
+- US GAAP / IFRS
+- Fundamental Analysis
+- Financial Data Validation & QA
+- Root Cause Analysis
+
+### Data Engineering & Automation
 - Python
-- SQL
-- PostgreSQL
 - Pandas
 - NumPy
-- Statistics
-- Machine Learning Fundamentals
-- Financial Data Analysis
-- Data Validation
-- Fundamental Analysis
+- SQL / PostgreSQL
+- ETL Pipelines
+- API Integration (FastAPI, REST)
+- JSON
+- Batch Processing
+- Data Quality Frameworks
+- UAT & Data Testing
 
-### Tools & Platforms
-- Git
-- GitHub
-- FastAPI
-- Postman
+### Analytics & Reporting
+- Advanced Excel (Power Query, Pivot Tables, Lookups)
 - Power BI
-- Azure Cloud
-- Jupyter Notebook
-- PyCharm
-- VS Code
-- Advanced Excel
-- GitHub Copilot
-- Cursor
-- Windsurf
-- Claude
+- Dashboards
+- Automated Reporting
 
-### Soft Skills
-- Analytical Thinking
-- Communication
-- Problem Solving
-- Root Cause Analysis
-- Cross-functional Collaboration
-- Technical Leadership
-- Continuous Learning
+### AI & Machine Learning
+- LLMs
+- LangChain
+- AI Agents
+- Scikit-learn
+- Regression & Classification
+- Streamlit Apps
+
+### Tools
+- Git / GitHub
+- Azure
+- Postman
+- Jupyter Notebook
+- VS Code / PyCharm
+- AI-assisted Development
+
+## Services
+
+### Financial Data Extraction
+- **Description:** Extract income statement, balance sheet, and cash flow data from SEC filings, annual reports, or PDFs into clean, structured Excel files or databases.
+
+### Data Validation & Cleanup
+- **Description:** Automated Python and SQL checks for missing values, duplicates, subtotal mismatches, period-over-period swings, and scale errors, with clear error reports.
+
+### Excel & Reporting Automation
+- **Description:** Replace repetitive manual work with Power Query, Python, and Power BI so your recurring reports refresh in minutes instead of hours.
+
+### API Data Pipelines
+- **Description:** Reliable pipelines that pull data from APIs in batches, with retries, error logging, and checkpoints, and consolidate the results into ready-to-use outputs.
+
+### AI-Powered Document Processing
+- **Description:** LLM-based tools that read financial documents and emails, extract key figures, and classify or summarize content automatically.
 
 ## Certifications
 
@@ -129,11 +151,11 @@
 **Q: What is your notice period / availability?**  
 **A:** This information is not specified in the provided documents.
 
-**Q: What kind of roles are you looking for?**  
-**A:** Data Analyst, Data Specialist, Data Scientist (Entry/Mid-level), AI/ML Engineer (Junior), and Python Developer roles focused on data and automation.
+**Q: Are you available for freelance work?**  
+**A:** Yes. I take on freelance and contract projects in financial data extraction, data validation and cleanup, Excel and reporting automation, API data pipelines, and AI-powered document processing. The best way to start is to email me with a short description of your project.
 
 **Q: Tell me about a challenging project you worked on.**  
 **A:** I developed Python-based financial data validation frameworks that automated validation, historical comparison, discrepancy reporting, and quality checks for financial reporting, significantly improving data accuracy and efficiency.
 
-**Q: What makes you different from other candidates?**  
+**Q: What makes you different from other data freelancers?**  
 **A:** I combine over a decade of financial domain expertise with strong Python automation skills, enabling me to understand both the business context and the technical implementation. This finance-plus-programming background helps me deliver reliable, scalable data solutions.
